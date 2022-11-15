@@ -1,0 +1,33 @@
+{
+  "name": "cypress-demoqa-testing",
+  "version": "1.0.0",
+  "description": "A testing repository using Cypress and the Demo QA website.",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-cypress": "^2.11.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "faker": "^5.1.0",
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {
+    "cypress": "^7.5",
+    "cypress-repeat": "^2.2.1"
+  },
+  "scripts": {
+    "open": "npx cypress open",
+    "test": "npx cypress run",
+    "lint": "eslint . --ext .js,.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThompsonJonM/cypress-demoqa.git"
+  },
+  "author": "Jonathan Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThompsonJonM/cypress-demoqa/issues"
+  },
+  "homepage": "https://github.com/ThompsonJonM/cypress-demoqa#readme"
+}
